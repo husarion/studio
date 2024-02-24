@@ -10,11 +10,11 @@ import { FormGroup, FormControlLabel, Switch } from "@mui/material";
 import { useEffect, useLayoutEffect, useState, useCallback, useRef } from "react";
 import ReactDOM from "react-dom";
 
-// import { GamepadDebug } from "./components/GamepadDebug";
-import { GamepadView } from "./components/GamepadView";
-import { SimpleButtonView } from "./components/SimpleButtonView";
-import kbmapping1 from "./components/kbmapping1.json";
-import { useGamepad } from "./hooks/useGamepad";
+// import { GamepadDebug } from "@foxglove/studio-base/components/GamepadDebug";
+import { GamepadView } from "@foxglove/studio-base/components/GamepadView";
+import { SimpleButtonView } from "@foxglove/studio-base/components/SimpleButtonView";
+import kbmapping1 from "@foxglove/studio-base/components/kbmapping1.json";
+import { useGamepad } from "@foxglove/studio-base/hooks/useGamepad";
 import { Config, buildSettingsTree, settingsActionReducer } from "./panelSettings";
 import { Joy } from "./types";
 
