@@ -2,6 +2,9 @@
 
 This package contains core components used in [Foxglove Studio](https://github.com/foxglove/studio).
 
+> [!Note]
+> Hardcoding this plugin: https://github.com/joshnewans/foxglove-joystick/ in this repo.
+
 ## Quick start
 
 When contributing to the [Foxglove Studio](https://github.com/foxglove/studio) codebase, you can import from `@foxglove/studio-base` at its top-level or from lower in its directory:
